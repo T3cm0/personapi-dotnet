@@ -1,0 +1,24 @@
+# Visual Studio + .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Publicar / empaques
+*.publish.xml
+
+# Rider/JetBrains
+.idea/
+
+# Logs
+*.log
+
+# NSwag: mantenemos el código generado (CS) pero ignora cachés si hubiera
+# (no ignores la carpeta NSwagClient/ porque ahí está ApiClientGenerated.cs)

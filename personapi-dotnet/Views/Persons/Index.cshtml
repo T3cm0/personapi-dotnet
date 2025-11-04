@@ -1,0 +1,36 @@
+﻿@using personapi_dotnet.NSwagClient
+@model IEnumerable<Persona>
+
+<h2>Personas</h2>
+
+<form method="get" asp-action="Index">
+    <input type="text" name="q" value="@Context.Request.Query["q"]" placeholder="Buscar..." />
+    <button type="submit">Buscar</button>
+    <a asp-action="Create">Crear nueva</a>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>CC</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model ?? Enumerable.Empty<Persona>())
+        {
+            <tr>
+                <td>@p.Cc</td>
+                <td>@p.Nombre</td>
+                <td>@p.Apellido</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@p.Cc">Detalles</a> |
+                    <a asp-action="Edit" asp-route-id="@p.Cc">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@p.Cc">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

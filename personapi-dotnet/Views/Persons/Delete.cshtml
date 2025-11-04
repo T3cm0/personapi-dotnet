@@ -1,0 +1,11 @@
+﻿@using personapi_dotnet.NSwagClient
+@model Persona
+
+<h2>Eliminar</h2>
+<p>¿Seguro que quieres eliminar a <strong>@Model.Nombre @Model.Apellido</strong> (CC @Model.Cc)?</p>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Cc" />
+    <button type="submit">Eliminar</button>
+    <a asp-action="Index">Cancelar</a>
+</form>

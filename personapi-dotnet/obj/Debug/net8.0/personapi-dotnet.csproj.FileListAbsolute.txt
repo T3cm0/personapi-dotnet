@@ -1,9 +1,0 @@
-D:\source\personapi-dotnet\personapi-dotnet\obj\Debug\net8.0\personapi-dotnet.csproj.AssemblyReference.cache
-D:\source\personapi-dotnet\personapi-dotnet\obj\Debug\net8.0\rpswa.dswa.cache.json
-D:\source\personapi-dotnet\personapi-dotnet\obj\Debug\net8.0\personapi-dotnet.GeneratedMSBuildEditorConfig.editorconfig
-D:\source\personapi-dotnet\personapi-dotnet\obj\Debug\net8.0\personapi-dotnet.AssemblyInfoInputs.cache
-D:\source\personapi-dotnet\personapi-dotnet\obj\Debug\net8.0\personapi-dotnet.AssemblyInfo.cs
-D:\source\personapi-dotnet\personapi-dotnet\obj\Debug\net8.0\personapi-dotnet.csproj.CoreCompileInputs.cache
-D:\source\personapi-dotnet\personapi-dotnet\obj\Debug\net8.0\personapi-dotnet.MvcApplicationPartsAssemblyInfo.cache
-D:\source\personapi-dotnet\personapi-dotnet\obj\Debug\net8.0\personapi-dotnet.RazorAssemblyInfo.cache
-D:\source\personapi-dotnet\personapi-dotnet\obj\Debug\net8.0\personapi-dotnet.RazorAssemblyInfo.cs

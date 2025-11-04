@@ -1,0 +1,13 @@
+﻿@using personapi_dotnet.NSwagClient
+@model Persona
+
+<h2>Detalles</h2>
+<div>
+    <div><strong>CC:</strong> @Model.Cc</div>
+    <div><strong>Nombre:</strong> @Model.Nombre</div>
+    <div><strong>Apellido:</strong> @Model.Apellido</div>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Cc">Editar</a> |
+    <a asp-action="Index">Volver</a>
+</p>
